@@ -1,0 +1,17 @@
+Описание.Имя("grafana2telegramm-bot")
+        .Версия("1.0.0")
+        .Автор("Сосновый Алексей aka Lab")
+        .АдресАвтора("https://github.com/asosnoviy")
+        .Описание("Отправка дашбордов в телеграмм")
+        //.ВерсияСреды("2.0.0")
+        .ВключитьФайл("src")
+        .ВключитьФайл("main.os")
+        .ВключитьФайл("packagedef")
+        .ЗависитОт("autumn")
+        .ЗависитОт("oint")
+        .ЗависитОт("1connector")
+        .ЗависитОт("autumn-annotation-types")
+        .ЗависитОт("autumn-logos")
+         
+        .ИсполняемыйФайл("main.os", "grafana2telegramm-bot")
+        ;

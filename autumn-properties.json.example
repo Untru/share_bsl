@@ -1,0 +1,11 @@
+{
+    "TELEGRAMM": {
+        "TOKEN": "",
+        "USERS": "",
+        "GROUPS": ""
+    },
+    "GRAFANA":{
+        "URL":"",
+        "TOKEN":""
+    }
+}
