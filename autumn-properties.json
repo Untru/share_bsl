@@ -11,5 +11,5 @@
         "HEADER": "sharebsl_bot"
         },  
     "UNPACK":  "py",    
-    "SHARE_SERVICE":  "ПубликаторGist,ПубликаторVK"
+    "SHARE_SERVICE":  "ПубликаторGist,ПубликаторЕщеКакойНибудь"
 }
