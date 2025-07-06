@@ -2,3 +2,4 @@ bin/
 oscript_modules/
 .env
 Resources/
+db.db
