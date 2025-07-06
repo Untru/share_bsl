@@ -17,5 +17,10 @@
             "ТипКоннектора": "КоннекторSQLite",
             "СтрокаСоединения": "FullUri=db.db"
         }
+    },
+    "logos": {
+        "logger": {
+            "share_bsl.logger": "DEBUG"
+        }
     }
 }
