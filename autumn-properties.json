@@ -4,12 +4,18 @@
         "USERS": "",
         "GROUPS": ""
     },
-   "GIST": {
+    "GIST": {
         "TOKEN": "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"
-        },
+    },
     "PASTE1C": {
         "HEADER": "sharebsl_bot"
-        },  
-    "UNPACK":  "py",    
-    "SHARE_SERVICE":  "ПубликаторGist,ПубликаторЕщеКакойНибудь"
+    },
+    "UNPACK": "py",
+    "SHARE_SERVICE": "ПубликаторGist,ПубликаторЕщеКакойНибудь",
+    "data": {
+        "ИсточникиДанных": {
+            "ТипКоннектора": "КоннекторSQLite",
+            "СтрокаСоединения": "FullUri=db.db"
+        }
+    }
 }

@@ -3,6 +3,7 @@
 #использовать autumn-annotation-types
 #Использовать autumn-logos
 #Использовать autumn-async
+//#Использовать autumn-data
 
 Совет = Новый СоветДругогоМастера();
 Совет.ПрефиксПеременныхСреды("SHAREBOT");
