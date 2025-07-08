@@ -1,4 +1,5 @@
 #Использовать "./src/core"
+#Использовать "./src/controller"
 #Использовать autumn
 #использовать autumn-annotation-types
 #Использовать autumn-logos
