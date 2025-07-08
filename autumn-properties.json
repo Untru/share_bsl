@@ -1,14 +1,27 @@
 {
     "TELEGRAMM": {
-        "TOKEN": "7967956539:AAFi0NESc0XM4Oj5rBnL4jEYfa4cdDUf9zk",
+        "TOKEN": "7967956539:AAFayMK5lOruZPGxens34SfvRFIu6aU6QWQ",
         "USERS": "",
         "GROUPS": ""
     },
-   "GIST": {
+    "GIST": {
         "TOKEN": "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"
-        },
+    },
     "PASTE1C": {
         "HEADER": "sharebsl_bot"
-        },  
-    "UNPACK":  "py"
+    },
+    "UNPACK": "py",
+    "SHARE_SERVICE": "ПубликаторGist,ПубликаторЕщеКакойНибудь",
+    "FILE_MAX_SIZE": 30000000,
+    "data": {
+        "ИсточникиДанных": {
+            "ТипКоннектора": "КоннекторSQLite",
+            "СтрокаСоединения": "FullUri=db.db"
+        }
+    },
+    "logos": {
+        "logger": {
+            "share_bsl.logger": "DEBUG"
+        }
+    }
 }
