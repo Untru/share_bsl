@@ -1,0 +1,22 @@
+{'update_id': 726598677,'callback_query':
+ {'id':'988241522275206274','from': 
+
+{'id': 230092909,'is_bot': false,'first_name':'Павел','last_name':'Чегодаев','username':'Un_tru','language_code':'ru','is_premium': true
+        },'message':
+        
+        {'message_id': 437,'from': {'id': 7967956539,'is_bot': true,'first_name':'sharebsl_bot','username':'sharebsl_bot'
+            },'chat': {'id': 230092909,'first_name':'Павел','last_name':'Чегодаев','username':'Un_tru','type':'private'
+            },'date': 1752007338,'text':'Ранее вы уже публиковали файл с таким именем, заменить или выложить еще раз?','reply_markup': {'inline_keyboard': [
+                    [
+                        {'text':'08.07.2025 22: 02: 15','callback_data':'1'
+                        }
+                    ],
+                    [
+                        {'text':'Сделать новую публикацию','callback_data':'NEW_8'
+                        }
+                    ]
+                ]
+            }
+        },'chat_instance':'-7815209320371019100','data':'NEW_8'
+    }
+}
