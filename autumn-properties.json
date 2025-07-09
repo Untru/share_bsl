@@ -16,7 +16,7 @@
     "data": {
         "ИсточникиДанных": {
             "ТипКоннектора": "КоннекторJSON",
-            "СтрокаСоединения": "/Users/untru/Documents/oscript/share_bsl/src/data"
+            "СтрокаСоединения": "./src/data"
         }
     },
     "logos": {

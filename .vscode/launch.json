@@ -13,7 +13,7 @@
             "args": [],
             "cwd": "${workspaceRoot}",
             "env": {},
-            "runtimeExecutable": "/Users/untru/.local/share/ovm/current/bin/oscript",
+            "runtimeExecutable": null,
             "runtimeArgs": [],
             "debugPort": 2801
         }
