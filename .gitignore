@@ -1,4 +1,5 @@
 oscript_modules/
 .env
 unpack/
+bin/
 db.db
