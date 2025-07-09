@@ -9,4 +9,4 @@ COPY ./main.os .
 
 RUN opm install opm && opm build && cp share-bot-*.ospx bot.ospx && opm install -f bot.ospx
 
-CMD ["grafana2telegramm-bot"]
+CMD ["share-bot"]

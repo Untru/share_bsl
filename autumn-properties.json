@@ -11,7 +11,7 @@
         "HEADER": "sharebsl_bot"
     },
     "UNPACK": "py",
-    "SHARE_SERVICE": "ПубликаторGist,ПубликаторЕщеКакойНибудь",
+    "SHARE_SERVICE": "ПубликаторGist, ПубликаторЕщеКакойНибудь",
     "FILE_MAX_SIZE": 30000000,
     "data": {
         "ИсточникиДанных": {
@@ -21,7 +21,7 @@
     },
     "logos": {
         "logger": {
-            "share_bsl.logger": "DEBUG"
+            "oscript.lib.share_bsl": {"level":"DEBUG", "stringlayout":"%Уровень%:%ДатаВремя% - %Сообщение%"}
         }
     }
 }
