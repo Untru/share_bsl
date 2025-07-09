@@ -15,8 +15,8 @@
     "FILE_MAX_SIZE": 30000000,
     "data": {
         "ИсточникиДанных": {
-            "ТипКоннектора": "КоннекторSQLite",
-            "СтрокаСоединения": "FullUri=db.db"
+            "ТипКоннектора": "КоннекторJSON",
+            "СтрокаСоединения": "/Users/untru/Documents/oscript/share_bsl/src/data"
         }
     },
     "logos": {
