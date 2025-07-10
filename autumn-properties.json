@@ -11,8 +11,8 @@
         "HEADER": "sharebsl_bot"
     },
     "UNPACK": "py",
-    "SHARE_SERVICE": "ПубликаторGist, ПубликаторЕщеКакойНибудь",
-    "FILE_MAX_SIZE": 30000000,
+    "SHARESERVICE": "ПубликаторGist, ПубликаторЕщеКакойНибудь",
+    "FILEMAXSIZE": 30000000,
     "data": {
         "ИсточникиДанных": {
             "ТипКоннектора": "КоннекторJSON",
