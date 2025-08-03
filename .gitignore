@@ -8,3 +8,4 @@ autumn-data/
 .vscode\launch.json
 DataBase/
 autumn-properties.json
+*.ospx
