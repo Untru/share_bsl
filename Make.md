@@ -239,8 +239,10 @@ package Model {
 
 ![alt text](images/image-5.png)
 
-Проверяем наш бот, работает
+Проверяем наш бот, работает! УРА!
+
 ![alt text](images/image-4.png)
+
 
 ## Работаем с секретами
 
