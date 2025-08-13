@@ -11,6 +11,7 @@
         .ЗависитОт("autumn", "4.3.11" )
         .ЗависитОт("oint")
         .ЗависитОт("1connector")
+        .ЗависитОт("1commands")
         .ЗависитОт("autumn-annotation-types")
         .ЗависитОт("autumn-async")
         .ЗависитОт("autumn-data")
