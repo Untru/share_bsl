@@ -22,10 +22,14 @@ COPY ./main.os .
 COPY ./autumn-properties.json .
 COPY ./oscript.cfg.example ./oscript.cfg
 
+COPY ./docker/entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
+
 RUN mkdir -p /app/DataBase
 
 RUN opm build . \
   && cp share-bot-*.ospx bot.ospx \
   && opm install -f bot.ospx
 
+ENTRYPOINT ["/entrypoint.sh"]
 CMD ["share-bot"]
