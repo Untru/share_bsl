@@ -1,5 +1,5 @@
 Описание.Имя("share-bot")
-        .Версия("0.0.1")
+        .Версия("0.1.0")
         .Автор("Чегодаев Павел")
         .АдресАвтора("https://github.com/untru")
         .АдресРепозитория("https://github.com/Untru/share_bsl")
@@ -14,6 +14,7 @@
         .ЗависитОт("autumn-annotation-types")
         .ЗависитОт("autumn-async")
         .ЗависитОт("autumn-data")
+        .ЗависитОт("1commands")
          
         .ИсполняемыйФайл("main.os", "share-bot")
         ;

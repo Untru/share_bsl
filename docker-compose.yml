@@ -1,0 +1,21 @@
+services:
+  sharebot:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    container_name: sharebot
+    restart: unless-stopped
+    environment:
+      - SHAREBOT_TELEGRAMM_TOKEN=${SHAREBOT_TELEGRAMM_TOKEN}
+      - SHAREBOT_TELEGRAMM_USERS=${SHAREBOT_TELEGRAMM_USERS:-}
+      - SHAREBOT_TELEGRAMM_GROUPS=${SHAREBOT_TELEGRAMM_GROUPS:-}
+      - SHAREBOT_GIST_TOKEN=${SHAREBOT_GIST_TOKEN:-}
+      - SHAREBOT_PASTE1C_HEADER=${SHAREBOT_PASTE1C_HEADER:-sharebsl_bot}
+      - SHAREBOT_UNPACK=${SHAREBOT_UNPACK:-py}
+      - SHAREBOT_SHARESERVICE=${SHAREBOT_SHARESERVICE:-ПубликаторGist}
+      - SHAREBOT_FILEMAXSIZE=${SHAREBOT_FILEMAXSIZE:-20000000}
+    volumes:
+      - sharebot-data:/app/DataBase
+
+volumes:
+  sharebot-data:
